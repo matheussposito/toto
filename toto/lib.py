@@ -1,3 +1,14 @@
+from termcolor import colored
+
+
+def whats_my_name():
+
+    return "Hello my name is Matheus"
+
+
 def who_am_i():
 
-    print("Hello my name is Matheus")
+    name = whats_my_name()
+
+    # cannot be tested since the function returns None implicitly
+    print(colored(name, "blue"))
