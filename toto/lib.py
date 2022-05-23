@@ -3,7 +3,7 @@ from termcolor import colored
 
 def whats_my_name():
 
-    return "Hello my name is Matheus"
+    return "Hello my name is João"
 
 
 def who_am_i():
